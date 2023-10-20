@@ -25,3 +25,10 @@ body {
   height: 100%;
   color: #000;
 }
+.custom-slider{
+  border-radius: 15px;
+}
+.custom-slide{
+  height: 500px;
+  border-radius: 15px;
+}

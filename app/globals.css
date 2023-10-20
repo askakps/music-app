@@ -26,7 +26,13 @@ body {
   color: #000;
   padding-bottom: 60px;
 }
-
+.custom-slider{
+  border-radius: 15px;
+}
+.custom-slide{
+  height: 500px;
+  border-radius: 15px;
+}
 .audio-wrapper {
   position: fixed;
   bottom: 0;

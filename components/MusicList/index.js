@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const MusicList = () => {
-  // Sample list of songs
+  
   const songs = [
     {
       title: 'Song 1',
@@ -13,19 +13,19 @@ const MusicList = () => {
       artist: 'Artist 2',
       url: 'https://audiocdn.epidemicsound.com/ES_ITUNES/dALIml_Top%20Tier/ES_Top%20Tier.mp3',
     },
-    // Add more songs as needed
+    
   ];
 
-  // State to manage the currently selected song
+  
   const [currentSong, setCurrentSong] = useState(null);
 
-  // Function to handle song selection
+  
   const handleSongSelect = (url) => {
     setCurrentSong(url);
   };
 
   useEffect(() => {
-    // You can add additional logic here for handling audio playback, pausing, etc.
+    
   }, [currentSong]);
 
   return (
@@ -45,7 +45,7 @@ const MusicList = () => {
           </li>
         ))}
       </ul>
-      {currentSong }
+  
       {currentSong && (
         <audio controls className="mt-4">
           <source src={currentSong} type="audio/mpeg" />

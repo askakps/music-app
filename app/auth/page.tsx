@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from 'next/navigation'
-import AuthButton from "../components/Button";
+import AuthButton from "../../components/Button/index"
 export default function Register(){
     const router = useRouter()
     const goToPage = (page: string) => {

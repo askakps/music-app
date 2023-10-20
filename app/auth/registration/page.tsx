@@ -1,4 +1,4 @@
-import AuthButton from "@/app/components/Button"
+import AuthButton from "../../../components/Button/index"
 export default function RegistrationPage(){
     return (
         <div className="flex flex-col items-center justify-center h-full">

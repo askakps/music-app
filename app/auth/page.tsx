@@ -12,10 +12,10 @@ export default function Register(){
                 <AuthButton 
                     styles="font-sans text-white bg-green-600 p-2 w-full my-2 rounded-md text-lg" 
                     title="Login"
-                    clickHandler = { () => goToPage('registration') } />
+                    clickHandler = { () => goToPage('authorization') } />
                 <AuthButton 
                     styles="font-sans text-white bg-stone-600 p-2 w-full my-2 rounded-md text-lg" 
-                    title="Registartion"
+                    title="Registration"
                     clickHandler = { () =>  goToPage('registration')}/>
             </div>
         </div>

@@ -33,7 +33,7 @@ const MusicList = () => {
 
   return (
     <div className="bg-white p-4">
-      <h2 className="text-2xl font-bold mb-4">Music List</h2>
+      <h2 className="text-2xl font-bold mb-4">Hits</h2>
       <ul>
         {songs.map((song, index) => (
           <li key={index} className="mb-4">
